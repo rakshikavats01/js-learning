@@ -50,3 +50,39 @@ let changeInString=String(scores);
 let value=3;
 let negValue=-value;
 // console.log(negValue);
+
+// console.log(2+2)
+// console.log(2-2)
+// console.log(2*2)
+// console.log(2**4)
+// console.log(5%3)
+// console.log(12/7)
+
+//string concatination
+let s1="hii"
+let s2=" rakshika"
+let s3=s1+s2 
+//console.log(s3)
+
+
+// console.log("1"+2)
+// console.log(1+"2")
+// console.log("1"+2+3)
+// console.log(2+3+"1")
+//if first item is string then every variable will be treated as string
+
+// console.log(+true)//1
+// console.log(-true)//-1
+// console.log(+"")//0
+// console.log(-"")//-0
+
+let num1,num2,num3 
+num1=num2=num3 =1+3
+// console.log(num2)
+
+let counter=100
+counter++
+//console.log(counter)
+++counter 
+//console.log(counter)
+//link for prefix and postfix:-https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Increment
