@@ -32,4 +32,33 @@ function loginInfo(username="Raks"){
     return `${username} Just logged in`
     }
 }
-console.log(loginInfo())
+//console.log(loginInfo())
+
+//Rest operator
+
+function calculateCartPrice(...num1){
+    return num1
+}
+
+//console.log(calculateCartPrice(10))
+
+const user={
+    userName:"Rakshika",
+    userAge:"21"
+}
+
+function objectHandling(object){
+    console.log(`Hii I am ${object.userName} and I am ${object.userAge}`)
+}
+//objectHandling(user)
+// objectHandling({
+//     userName:"Raks",
+//     userAge:"20"
+// })
+
+const myArr=[10,20,30]
+function arrayHandling(array){
+    console.log(array[2])
+}
+//arrayHandling(myArr)
+//arrayHandling([70,80,90])
