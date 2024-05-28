@@ -36,7 +36,34 @@ const obj3={
 const obj4={...obj2,...obj3}
 //console.log(obj4)
 
-console.log(Object.keys(obj4))
-console.log(Object.values(obj4))
-console.log(Object.entries(obj4))
-console.log(obj4.hasOwnProperty(9))//to check that key is present or not but return always false in case of values.
+// console.log(Object.keys(obj4))
+// console.log(Object.values(obj4))
+// console.log(Object.entries(obj4))
+// console.log(obj4.hasOwnProperty(9))//to check that key is present or not but return always false in case of values.
+
+
+//destructuring of Objects
+const course={
+    courseName:"Javascript",
+    courseFees:1200,
+    courseInstructor:"Hitesh"
+}
+
+//console.log(course.courseInstructor)
+const {courseInstructor:Instructor}=course 
+//console.log(Instructor);//will not work for courseInstructor
+//if we dont want to write lengthy syntax again and again in our code-to make our code neat and clean
+
+
+
+//JSON-just a object without any name and also every key and values are in string only
+
+// {
+//     "name":"Rakshika",
+//     "surname":"Vats",
+//     "age":"21",
+//     "Company":"Ericsson",
+//     "Role":"Intern-Integration engineer"
+// }
+
+//JSON formatter:tool
