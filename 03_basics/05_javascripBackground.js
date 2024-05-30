@@ -6,3 +6,5 @@
 //Javascript code file runs in two phases:-
 //1.Memory creation phase/creation phase:-just allocate space to variables ,no execution
 //2.Execution phase
+
+//refer the video
