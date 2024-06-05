@@ -27,3 +27,4 @@ country.set("Fr","France")
 for (const [key,value] of country) {
     //console.log(`${key}=${value}`)
 }
+//maps are not iteratable through forin
